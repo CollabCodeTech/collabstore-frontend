@@ -55,7 +55,7 @@ to-do
 
 # Como contribuir
 
-Para saber os passos para contribuir com o projeto, é só acesso o arquivo [CONTRIBUTING.md](CONTRIBUTING.md)
+Para saber os passos para contribuir com o projeto, é só acesso o arquivo [CONTRIBUTING.md - to-do](CONTRIBUTING.md)
 
 # Direitos autorais & Licença
 

@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "CollabCode",
+  "description": "É uma plataforma de ecommerce focada para streamers da Twitch, dentro da Twitch cada streamer tem o hábito de ter sua própria moeda, com a CollabStore o streamer pode criar sua própria loja divulgando produtos para seus viewers realizarem compras utilizando a moeda do seu canal.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
