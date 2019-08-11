@@ -1,4 +1,4 @@
-# CollabStore by Marco Bruno da CollabCode
+# CollabStore
 
 [![collabstore.jpg](https://i.postimg.cc/BQc1DnmJ/collabstore.jpg)](https://postimg.cc/7fh6rwvR)
 
