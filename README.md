@@ -1,6 +1,6 @@
 # CollabStore
 
-[![collabstore.jpg](https://i.postimg.cc/BQc1DnmJ/collabstore.jpg)](https://postimg.cc/7fh6rwvR)
+![collabstore.jpg](https://raw.githubusercontent.com/CollabCodeTech/weekly/master/collabcode.png)
 
 ## O que eu vou aprender?! 📙
 
