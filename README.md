@@ -10,7 +10,6 @@
 
 - **[Node](https://nodejs.org/en/)**
 - **[Npm](https://www.npmjs.com/)**
-- **[Sapper](https://sapper.svelte.dev)**
 - **[Nest.js](https://nestjs.com/)**
 
 ## Por onde começar? 🚀
