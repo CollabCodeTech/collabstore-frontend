@@ -1,96 +1,69 @@
-# CollabStore
+*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
-[![collabstore.jpg](https://i.postimg.cc/BQc1DnmJ/collabstore.jpg)](https://postimg.cc/7fh6rwvR)
+---
 
-## O que eu vou aprender?! 📙
+# svelte app
 
-É um projeto totalmente open source criado pelo **[Marco Bruno](https://twitter.com/marcobrunobr)**, onde ensinará a desenvolver uma plataforma de E-Commerce focada para streamers da Twitch. Pois dentro da Twitch, cada streamer tem o hábito de ter sua própria moeda. Com a CollabStore, o streamer pode criar sua própria loja divulgando produtos para seus viewers realizarem compras utilizando a moeda no seu canal.
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
-## Recursos Utilizados no Desenvolvimento da Aplicação 💻 
-
-- **[Node](https://nodejs.org/en/)**
-- **[Npm](https://www.npmjs.com/)**
-- **[Nest.js](https://nestjs.com/)**
-
-## Por onde começar? 🚀
-
-### Pré-requisitos ⚠️
-
-- Instalar a versão Node >= 10.16.2
-- Instalar a versão Npm >= 6.9.0
-
-## Executando a Aplicação Localmente ❗️
-
-### Executando a aplicação no lado do Front-End
-
-1. Realizar o git clone do projeto usando https ou ssh:
-
-* **https**
+To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-> https://github.com/CollabCodeTech/collabstore.git
+npx degit sveltejs/template svelte-app
+cd svelte-app
 ```
 
-* **ssh**
+*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+
+
+## Get started
+
+Install the dependencies...
 
 ```bash
-> git@github.com:CollabCodeTech/collabstore.git
+cd svelte-app
+npm install
 ```
 
-2. Acesse a pasta do projeto:
+...then start [Rollup](https://rollupjs.org):
 
 ```bash
-> cd collabstore
+npm run dev
 ```
 
-3. Execute o comando a seguir para instalar todas as dependências do projeto:
+Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+
+
+## Deploying to the web
+
+### With [now](https://zeit.co/now)
+
+Install `now` if you haven't already:
 
 ```bash
-> npm install
+npm install -g now
 ```
 
-4. Agora basta executar o comando a seguir para subir o CollabStore localmente:
+Then, from within your project folder:
 
 ```bash
-> npm run dev
+cd public
+now
 ```
 
-5. Abre o browser na porta: http://localhost:3000 
+As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
 
-E vòilá! ❤️ ❤️
+### With [surge](https://surge.sh/)
 
-[![gif-017a5e38294b4c73b5.gif](https://s3.gifyu.com/images/gif-017a5e38294b4c73b5.gif)](https://gifyu.com/image/hpdg)
+Install `surge` if you haven't already:
 
-## Como executar os testes? 💥
+```bash
+npm install -g surge
+```
 
-to-do
+Then, from within your project folder:
 
-## Agenda dos Vídeos do Desenvolvimento do Projeto - CollabStore: 🎥
-
-Os vídeos estão disponíveis em dois canais da **[CollabCode](https://collabcode.training/)**
-
-* **[Twitch - CollabCode](https://www.twitch.tv/marcobrunobr)**
-* **[Youtube - CollabCode](https://www.youtube.com/channel/UCVheRLgrk7bOAByaQ0IVolg)**
-
-Abaixo seguem os vídeos de cada série!
-
-| Vídeo | Link do Vídeo |
-|---|---
-| Day 01 | **[Day 1](https://www.youtube.com/watch?v=Dwpx4X4NPGA)** |  
-| Day 02 | **[Day 2](https://www.youtube.com/watch?v=LbFlswNN9fM)** |  
-| Day 02 | **[Day 2 - Em breve]()** |  
-| Day 03 | **[Day 3 - Em breve]()** |  
-| Day 04 | **[Day 4 - Em breve]()** |  
-| Day 05 | **[Day 5 - Em breve]()** |  
-| Day 06 | **[Day 6 - Em breve]()** |  
-| Day 07 | **[Day 7 - Em breve]()** |  
-
-## Como posso contribuir? 🔥
-
-Para saber os passos para contribuir com o projeto, é só acesso o arquivo **[CONTRIBUTING.md](CONTRIBUTING.md)**
-
-## Dúvidas?! ❓
-
-Se tiverem alguma dúvida referente ao código desenvolvido ou para configurar o ambiente em suas máquinas, por favor, bastam criar uma **[ISSUE AQUI](https://github.com/CollabCodeTech/collabstore/issues)** no GitHub que estaremos respondendo a vocês ASAP!! ❤️❤️❤️ 😊
-
-**(documentação em desenvolvimento)**
+```bash
+npm run build
+surge public
+```
