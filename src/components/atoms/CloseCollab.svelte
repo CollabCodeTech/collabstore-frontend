@@ -9,8 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 20px;
-    min-height: 20px;
+    min-width: 22px;
+    min-height: 22px;
   }
 
   .close-collab::before,
