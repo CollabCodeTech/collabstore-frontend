@@ -2,7 +2,9 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
     "@storybook/svelte": "^5.1.11",
+    "babel-loader": "^8.0.6",
     "npm-run-all": "^4.1.5",
     "rollup": "^1.12.0",
     "rollup-plugin-commonjs": "^10.0.0",
