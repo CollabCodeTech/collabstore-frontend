@@ -1,11 +1,5 @@
 <script>
-	export let name;
+  import TitleCollab from "./components/atoms/TitleCollab.svelte";
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<TitleCollab content="Faça login abaixo" />
