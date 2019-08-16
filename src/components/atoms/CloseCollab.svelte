@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <style>
   .close-collab {
     position: relative;
@@ -11,6 +7,8 @@
     align-items: center;
     min-width: 22px;
     min-height: 22px;
+    background: none;
+    border: none;
   }
 
   .close-collab::before,

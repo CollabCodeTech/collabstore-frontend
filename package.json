@@ -12,12 +12,14 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
-    "svelte": "^3.0.0"
+    "svelte": "^3.0.0",
+    "svelte-loader": "^2.13.6"
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
   },
   "scripts": {
+    "storybook": "start-storybook -p 9000",
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
