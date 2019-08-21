@@ -1,9 +1,9 @@
-import { storiesOf } from "@storybook/svelte";
-import TitleCollabView from "./views/atom/TitleCollabView.svelte";
+import { storiesOf } from '@storybook/svelte'
+import TitleCollabView from './views/atom/TitleCollabView.svelte'
 
-storiesOf("TitleCollab", module).add("default", () => ({
+storiesOf('TitleCollab', module).add('default', () => ({
   Component: TitleCollabView,
   props: {
-    content: "Subs"
-  }
-}));
+    content: 'Subs',
+  },
+}))

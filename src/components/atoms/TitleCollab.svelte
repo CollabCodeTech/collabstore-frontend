@@ -1,5 +1,5 @@
 <script>
-  export let content = "Por favor, passar uma propriedade content";
+  export let content = 'Por favor, passar uma propriedade content'
 </script>
 
 <style>

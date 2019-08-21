@@ -1,7 +1,7 @@
 <script>
-  export let content;
+  export let content
 
-  import TitleCollab from "../../../components/atoms/TitleCollab.svelte";
+  import TitleCollab from '../../../components/atoms/TitleCollab.svelte'
 </script>
 
 <TitleCollab {content} />

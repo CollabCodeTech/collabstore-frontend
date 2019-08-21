@@ -13,7 +13,7 @@
 
   .close-collab::before,
   .close-collab::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 120%;
     height: 4px;
