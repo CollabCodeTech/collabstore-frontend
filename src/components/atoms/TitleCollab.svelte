@@ -4,7 +4,10 @@
 
 <style>
   .title-collab {
-    color: #f25a70;
+    color: var(--color-first);
+    font-size: var(--size-third);
+    font-weight: bold;
+    line-height: 1.2em;
   }
 </style>
 
