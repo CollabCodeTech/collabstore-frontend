@@ -1,8 +1,8 @@
 <script>
-  export let title
-  export let description
-  export let exampleUse
-  export let exampleImport
+  export let title = 'title not defined'
+  export let description = 'description not defined'
+  export let exampleImport = 'exampleImport not defined'
+  export let exampleUse = 'exampleUse not defined'
 </script>
 
 <style>
