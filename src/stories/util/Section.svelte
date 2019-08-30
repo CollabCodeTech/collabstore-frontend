@@ -47,18 +47,18 @@
   .section-sbcollab .title {
     font-size: 36px;
     font-weight: bold;
-    color: var(--color-sbcollab-third);
+    color: var(--color-sbcollab-first);
   }
 
   .section-sbcollab .subtitle {
     font-size: 20px;
-    color: var(--color-sbcollab-third);
+    color: var(--color-sbcollab-first);
     margin-bottom: 20px;
   }
 
   .section-sbcollab .description {
     font-size: 14px;
-    color: var(--color-sbcollab-third-light);
+    color: var(--color-sbcollab-second);
   }
 
   .section-sbcollab .example {

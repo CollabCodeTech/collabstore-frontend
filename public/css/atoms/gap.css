@@ -1,5 +1,6 @@
 :root {
   --gap-radius: 4px;
+  --gap-very-small: 8px;
   --gap-small: 20px;
   --gap-medium: 22px;
 }

@@ -2,8 +2,8 @@
   export let placeholder = 'placeholder not defined'
   let filled = false
 
-  function handleChange() {
-    this.value !== '' ? (filled = true) : (filled = false)
+  function isFilled() {
+    filled = this.value !== ''
   }
 </script>
 
@@ -19,6 +19,7 @@
     width: 100%;
     border-radius: var(--gap-radius);
     font-size: var(--size-second);
+    margin-bottom: var(--gap-small);
   }
 
   .input {
@@ -52,6 +53,6 @@
 </style>
 
 <label class={`textfield-collab ${filled && 'filled'}`}>
-  <input type="text" class="input" on:change={handleChange} />
+  <input type="text" class="input" on:change={isFilled} />
   <span class="placeholder">{placeholder}</span>
 </label>
