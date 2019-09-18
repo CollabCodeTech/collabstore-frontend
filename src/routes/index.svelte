@@ -1,3 +1,7 @@
+<script>
+  import MainHeader from "../containers/MainHeader.svelte";
+</script>
+
 <style>
 
 </style>
@@ -6,4 +10,4 @@
   <title>Sapper project template</title>
 </svelte:head>
 
-<h1>Deu bom!!!</h1>
+<MainHeader />
