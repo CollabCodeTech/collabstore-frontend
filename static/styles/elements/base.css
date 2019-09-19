@@ -1,3 +1,5 @@
 body {
+  min-width: 290px;
   font-family: "Montserrat", sans-serif;
+  background-color: var(--color-blueberry);
 }

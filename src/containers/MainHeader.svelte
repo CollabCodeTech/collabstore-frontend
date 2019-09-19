@@ -5,6 +5,9 @@
 
 <style>
   .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--color-acai);
     background-image: linear-gradient(
       89.64deg,
@@ -15,6 +18,8 @@
     height: 45px;
     padding-left: var(--gap-med);
     padding-right: var(--gap-med);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    margin-bottom: var(--gap-max);
   }
 </style>
 

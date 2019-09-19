@@ -1,5 +1,6 @@
 <script>
   import MainHeader from "../containers/MainHeader.svelte";
+  import GameCard from "../containers/GameCard.svelte";
 </script>
 
 <style>
@@ -11,3 +12,10 @@
 </svelte:head>
 
 <MainHeader />
+
+<GameCard
+  src="/img/game.png"
+  all="Imagem do Game"
+  title="Moonlighter"
+  price="599,90"
+  stars={3} />
