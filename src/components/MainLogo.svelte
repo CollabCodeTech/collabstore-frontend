@@ -3,6 +3,7 @@
     font-size: var(--size-med);
     font-weight: bold;
     letter-spacing: 1px;
+    color: var(--color-coconut);
   }
 </style>
 
