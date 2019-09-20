@@ -8,10 +8,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     background-color: var(--color-acai);
     background-image: linear-gradient(
       89.64deg,
-      var(--color-white) 0.04%,
       var(--color-acai) 0.05%,
       var(--color-blueberry) 99.96%
     );

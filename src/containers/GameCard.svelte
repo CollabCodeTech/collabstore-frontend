@@ -1,6 +1,7 @@
 <script>
   import IconStar from "../components/IconStar.svelte";
 
+  export let id = "not defined id";
   export let title = "not defined title";
   export let src = "not defined photo";
   export let alt = "not defined alt";
@@ -9,14 +10,18 @@
 </script>
 
 <style>
+  .wrapper-game-card {
+    text-decoration: none;
+  }
+
   .game-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
     max-width: 290px;
-    margin-right: var(--gap-med);
-    margin-left: var(--gap-med);
+    margin: 0 var(--gap-med) var(--gap-max);
+
     background-image: linear-gradient(
       180deg,
       var(--color-acai) 0%,
@@ -60,16 +65,18 @@
   }
 </style>
 
-<dl class="game-card">
-  <dd>
-    <img class="photo" {src} {alt} />
-  </dd>
-  <dt class="title">{title}</dt>
-  <dd class="stars">
-    <IconStar {stars} />
-  </dd>
-  <dd class="price">
-    <img class="collabs" src="/img/collabs.svg" alt="Collabs" />
-    {price}
-  </dd>
-</dl>
+<a class="wrapper-game-card" href={`/game/${id}`}>
+  <dl class="game-card">
+    <dd>
+      <img class="photo" {src} {alt} />
+    </dd>
+    <dt class="title">{title}</dt>
+    <dd class="stars">
+      <IconStar {stars} />
+    </dd>
+    <dd class="price">
+      <img class="collabs" src="/img/collabs.svg" alt="Collabs" />
+      {price}
+    </dd>
+  </dl>
+</a>

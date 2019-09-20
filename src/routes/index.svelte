@@ -1,6 +1,16 @@
 <script>
+  import { onMount } from "svelte";
+  import axios from "axios";
+  import MainContainer from "../components/MainContainer.svelte";
   import MainHeader from "../containers/MainHeader.svelte";
   import GameCard from "../containers/GameCard.svelte";
+
+  let games = [];
+
+  onMount(async () => {
+    const res = await axios.get("http://localhost:3001/game/overview");
+    games = res.data;
+  });
 </script>
 
 <style>
@@ -8,14 +18,14 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>CollabStore - Loja para Streamers</title>
 </svelte:head>
 
-<MainHeader />
+<MainContainer>
+  <MainHeader />
 
-<GameCard
-  src="/img/game.png"
-  all="Imagem do Game"
-  title="Moonlighter"
-  price="599,90"
-  stars={3} />
+  {#each games as game}
+    <GameCard {...game} />
+  {/each}
+
+</MainContainer>
